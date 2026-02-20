@@ -1,13 +1,14 @@
 #pragma once
 
+#include "handle_key.hpp"
 namespace kl {
 
 class Keylogger {
 public:
-  void exectue();
+  void execute();
 
 private:
-  
+  HandleKey handler_;
 
 };
 

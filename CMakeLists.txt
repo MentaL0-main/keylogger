@@ -8,4 +8,4 @@ file(GLOB_RECURSE ALL_SOURCES
     "src/*.cpp"
 )
 
-add_executable(mkit ${ALL_SOURCES})
+add_executable(keylogger ${ALL_SOURCES})
